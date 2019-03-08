@@ -88,7 +88,7 @@ while True:
                 street = ''
                 pic = ''
                 email = ''
-                connection = pymysql.connect(host='127.0.0.1',port=3306, database='bloomdb',user='bloom',password='yH4i8Zs9LfFLjdQ')
+                connection = pymysql.connect(host='127.0.0.1',port=3306, database='bloomdb',user='bloom',password='password_here')
                 with connection.cursor() as cursor:
                     # Create a new record
                     sql = "INSERT IGNORE `scan_rakuten` (`time`, `URL`,`company`,`pic`,`email`,`category`,`phone`,`street`,`shop`,`page`) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s) ;"

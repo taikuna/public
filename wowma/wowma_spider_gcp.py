@@ -18,7 +18,7 @@ s_id = int(restart_id)
 
 while True:
     connection = pymysql.connect(host='127.0.0.1', database='bloomdb', user='bloom',
-                                 password='yH4i8Zs9LfFLjdQ')
+                                 password='password_here')
     cursor = connection.cursor()
     sql = "SELECT `wowma_id` FROM `email_shashin` WHERE `id`=%s"
     cursor.execute(sql, (str(s_id),))
@@ -56,7 +56,7 @@ while True:
         print('street /////' + street)
 
         try:
-            connection = pymysql.connect(host='127.0.0.1',port=3307, database='bloomdb', user='bloom', password='yH4i8Zs9LfFLjdQ')
+            connection = pymysql.connect(host='127.0.0.1',port=3307, database='bloomdb', user='bloom', password='password_here')
             with connection.cursor() as cursor:
                 # Create a new record
                 sql = 'update email_shashin set shop_link = %s, pic = %s, company = %s, email = %s,shop = %s, phone = %s, street = %s where id =%s;'
@@ -67,7 +67,7 @@ while True:
             pass
             print('email dublicate')
             connection.close()
-            connection = pymysql.connect(host='127.0.0.1',port=3307, database='bloomdb', user='bloom', password='yH4i8Zs9LfFLjdQ')
+            connection = pymysql.connect(host='127.0.0.1',port=3307, database='bloomdb', user='bloom', password='password_here')
             with connection.cursor() as cursor:
                 # Create a new record
                 sql = 'update email_shashin set note = %s where email =%s;'

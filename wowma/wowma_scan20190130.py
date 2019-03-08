@@ -38,7 +38,7 @@ while True:
     cat_id = int(restart_cat_id)
 
     connection = pymysql.connect(host='127.0.0.1',port=3307, database='bloomdb', user='bloom',
-                                 password='yH4i8Zs9LfFLjdQ')
+                                 password='password_here')
     cursor = connection.cursor()
 
     sql = "SELECT `cat_no` FROM `wowma_category` WHERE `id`=%s"
@@ -72,7 +72,7 @@ while True:
 
                 print(shop_id)
                 connection = pymysql.connect(host='127.0.0.1', port=3307, database='bloomdb', user='bloom',
-                                             password='yH4i8Zs9LfFLjdQ')
+                                             password='password_here')
                 with connection.cursor() as cursor:
                     # Create a new record
                     sql = "INSERT IGNORE `email_shashin` (`wowma_id`,`page`,`category`,`utm_medium`) VALUES (%s, %s, %s, %s) ;"
