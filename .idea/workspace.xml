@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8cd62cf8-adfd-4af5-a8fc-2fd537bbea6c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/auto_email/emailer.py" afterPath="$PROJECT_DIR$/auto_email/emailer.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rakuten/raku_spider.py" afterPath="$PROJECT_DIR$/rakuten/raku_spider.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rakuten/scan_rakuten_headless.py" afterPath="$PROJECT_DIR$/rakuten/scan_rakuten_headless.py" />
-    </list>
+    <list default="true" id="8cd62cf8-adfd-4af5-a8fc-2fd537bbea6c" name="Default" comment="" />
     <ignored path="public.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -25,38 +21,7 @@
     <favorites_list name="public" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="wowma_scan20190130.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wowma/wowma_scan20190130.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1035">
-              <caret line="40" column="56" selection-start-line="40" selection-start-column="56" selection-end-line="40" selection-end-column="56" />
-              <caret line="74" column="68" selection-start-line="74" selection-start-column="68" selection-end-line="74" selection-end-column="68" />
-              <folding>
-                <marker date="1552043924595" expanded="true" signature="1643:1694" placeholder="SELECT `cat_... wowma_category" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="wowma_spider_gcp.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/wowma/wowma_spider_gcp.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1035">
-              <caret line="20" column="56" selection-start-line="20" selection-start-column="56" selection-end-line="20" selection-end-column="56" />
-              <caret line="58" column="126" selection-start-line="58" selection-start-column="126" selection-end-line="58" selection-end-column="126" />
-              <caret line="69" column="126" selection-start-line="69" selection-start-column="126" selection-end-line="69" selection-end-column="126" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-                <marker date="1552043924591" expanded="true" signature="599:651" placeholder="SELECT `wowm... email_shashin" />
-                <marker date="1552043924591" expanded="true" signature="2442:2565" placeholder="update email... " />
-                <marker date="1552043924591" expanded="true" signature="3093:3143" placeholder="update email... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
