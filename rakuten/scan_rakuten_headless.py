@@ -1,3 +1,4 @@
+#楽天市場出品者情報スクレイピングツール
 # -*- coding: utf-8 -*-
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options

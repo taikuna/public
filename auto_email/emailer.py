@@ -1,4 +1,4 @@
-#SQLデータベースの顧客EmailリストからそれぞれのAnalyticsタグを入力しHTMLを自動送信
+#SQLデータベースの顧客Emailリストからそれぞれの会社名、代表者名とGoogleAnalyticsタグを自動入力しHTMLメールを自動送信
 # -*- coding: utf-8 -*-
 import smtplib
 

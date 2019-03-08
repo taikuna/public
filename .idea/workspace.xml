@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8cd62cf8-adfd-4af5-a8fc-2fd537bbea6c" name="Default" comment="" />
+    <list default="true" id="8cd62cf8-adfd-4af5-a8fc-2fd537bbea6c" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/auto_email/emailer.py" afterPath="$PROJECT_DIR$/auto_email/emailer.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rakuten/raku_spider.py" afterPath="$PROJECT_DIR$/rakuten/raku_spider.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rakuten/scan_rakuten_headless.py" afterPath="$PROJECT_DIR$/rakuten/scan_rakuten_headless.py" />
+    </list>
     <ignored path="public.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -21,7 +25,38 @@
     <favorites_list name="public" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="wowma_scan20190130.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wowma/wowma_scan20190130.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1035">
+              <caret line="40" column="56" selection-start-line="40" selection-start-column="56" selection-end-line="40" selection-end-column="56" />
+              <caret line="74" column="68" selection-start-line="74" selection-start-column="68" selection-end-line="74" selection-end-column="68" />
+              <folding>
+                <marker date="1552043924595" expanded="true" signature="1643:1694" placeholder="SELECT `cat_... wowma_category" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="wowma_spider_gcp.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wowma/wowma_spider_gcp.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1035">
+              <caret line="20" column="56" selection-start-line="20" selection-start-column="56" selection-end-line="20" selection-end-column="56" />
+              <caret line="58" column="126" selection-start-line="58" selection-start-column="126" selection-end-line="58" selection-end-column="126" />
+              <caret line="69" column="126" selection-start-line="69" selection-start-column="126" selection-end-line="69" selection-end-column="126" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+                <marker date="1552043924591" expanded="true" signature="599:651" placeholder="SELECT `wowm... email_shashin" />
+                <marker date="1552043924591" expanded="true" signature="2442:2565" placeholder="update email... " />
+                <marker date="1552043924591" expanded="true" signature="3093:3143" placeholder="update email... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -29,10 +64,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/auto_email/emailer.py" />
         <option value="$PROJECT_DIR$/wowma/wowma_scan20190130.py" />
         <option value="$PROJECT_DIR$/wowma/wowma_spider_gcp.py" />
+        <option value="$PROJECT_DIR$/auto_email/emailer.py" />
         <option value="$PROJECT_DIR$/rakuten/scan_rakuten_headless.py" />
+        <option value="$PROJECT_DIR$/rakuten/raku_spider.py" />
       </list>
     </option>
   </component>
@@ -353,47 +389,56 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/rakuten/raku_spider.py">
+    <entry file="file://$PROJECT_DIR$/.gitattributes">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-75">
+        <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1549175738341" expanded="true" signature="1025:1103" placeholder="SELECT `id`,... scan_rakuten" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auto_email/emailer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4869">
-          <caret line="525" column="59" selection-start-line="525" selection-start-column="59" selection-end-line="525" selection-end-column="59" />
-          <folding>
-            <marker date="1552043678170" expanded="true" signature="1297:1375" placeholder="SELECT `id`,... email_shashin" />
-            <marker date="1552043678170" expanded="true" signature="2791:2840" placeholder="SELECT `emai... email_shashin" />
-            <marker date="1552043678170" expanded="true" signature="3383:3434" placeholder="SELECT `comp... email_shashin" />
-            <marker date="1552043678170" expanded="true" signature="3886:3940" placeholder="SELECT `utm_... email_shashin" />
-            <marker date="1552043678170" expanded="true" signature="4390:4438" placeholder="SELECT `sent... email_shashin" />
-            <marker date="1552043678170" expanded="true" signature="4874:4921" placeholder="SELECT `pic`... email_shashin" />
-            <marker date="1552043678170" expanded="true" signature="31131:31178" placeholder="update email... " />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/rakuten/scan_rakuten_headless.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1200">
-          <caret line="90" column="128" selection-start-line="90" selection-start-column="128" selection-end-line="90" selection-end-column="128" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="20" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto_email/emailer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
+          <folding>
+            <marker date="1552044802800" expanded="true" signature="1317:1395" placeholder="SELECT `id`,... email_shashin" />
+            <marker date="1552044802800" expanded="true" signature="2811:2860" placeholder="SELECT `emai... email_shashin" />
+            <marker date="1552044802800" expanded="true" signature="3403:3454" placeholder="SELECT `comp... email_shashin" />
+            <marker date="1552044802800" expanded="true" signature="3906:3960" placeholder="SELECT `utm_... email_shashin" />
+            <marker date="1552044802800" expanded="true" signature="4410:4458" placeholder="SELECT `sent... email_shashin" />
+            <marker date="1552044802800" expanded="true" signature="4894:4941" placeholder="SELECT `pic`... email_shashin" />
+            <marker date="1552044802800" expanded="true" signature="31151:31198" placeholder="update email... " />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wowma/wowma_scan20190130.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1005">
+        <state relative-caret-position="1035">
           <caret line="40" column="56" selection-start-line="40" selection-start-column="56" selection-end-line="40" selection-end-column="56" />
           <caret line="74" column="68" selection-start-line="74" selection-start-column="68" selection-end-line="74" selection-end-column="68" />
           <folding>
             <marker date="1552043924595" expanded="true" signature="1643:1694" placeholder="SELECT `cat_... wowma_category" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rakuten/raku_spider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1395">
+          <caret line="34" column="120" selection-start-line="34" selection-start-column="120" selection-end-line="34" selection-end-column="120" />
+          <caret line="103" column="124" selection-start-line="103" selection-start-column="124" selection-end-line="103" selection-end-column="124" />
+          <folding>
+            <marker date="1552044802803" expanded="true" signature="1045:1123" placeholder="SELECT `id`,... scan_rakuten" />
           </folding>
         </state>
       </provider>
@@ -410,14 +455,6 @@
             <marker date="1552043924591" expanded="true" signature="2442:2565" placeholder="update email... " />
             <marker date="1552043924591" expanded="true" signature="3093:3143" placeholder="update email... " />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitattributes">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>

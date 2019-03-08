@@ -1,4 +1,5 @@
-# -*- coding: utf-8 -*-
+#楽天市場出品者情報スクレイピングツール
+#  -*- coding: utf-8 -*-
 from bs4 import BeautifulSoup
 import re
 from selenium import webdriver
@@ -31,7 +32,7 @@ f.close()
 s_id = int(restart_id)
 
 while True:
-    connection = pymysql.connect(host='127.0.0.1',port=sql_port, database='bloomdb',user='bloom',password='yH4i8Zs9LfFLjdQ')
+    connection = pymysql.connect(host='127.0.0.1',port=sql_port, database='bloomdb',user='bloom',password='password_here')
     cursor = connection.cursor()
     sql = "SELECT `id`, `URL` ,`category`,`shop`,`page` FROM `scan_rakuten` WHERE `id`=%s"
     cursor.execute(sql, (str(s_id),))
@@ -100,7 +101,7 @@ while True:
             pass
             phone = ''
 
-        connection = pymysql.connect(host='127.0.0.1', port=sql_port,database='bloomdb',user='bloom',password='yH4i8Zs9LfFLjdQ')
+        connection = pymysql.connect(host='127.0.0.1', port=sql_port,database='bloomdb',user='bloom',password='password_here')
         with connection.cursor() as cursor:
             # Create a new record
             sql = "INSERT IGNORE `rakuten_list` (`time`, `URL`,`company`,`pic`,pic_shop,`email`,`category`,`phone`,`street`,`shop`,`page`) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s) ;"
